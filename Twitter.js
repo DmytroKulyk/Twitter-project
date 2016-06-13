@@ -21,19 +21,19 @@ $(document).ready(function() {
         {
             id: 1,
             name: 'Barack Obama',
-            Img: 'Img/male1.jpeg'
+            img: 'Img/male1.jpeg'
         },
 
         {
             id: 2,
             name: 'Hillary Clinton',
-            Img: 'Img/female1.jpeg'
+            img: 'Img/female1.jpeg'
         },
 
         {
             id: 3,
             name: 'Tim Cook',
-            Img: 'Img/male2.jpeg'
+            img: 'Img/male2.jpeg'
         },
 
         {
