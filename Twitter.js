@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var userName = 'Dmytro Kulyk';
-    var userImg = 'img/SEposter.jpg';
+    var userImg = 'Img/SEposter.jpg';
     var userImgLink = '<a href="https://github.com/DmytroKulyk" target="_blank"><img alt="" class="img" src="' + userImg + '"><a/>';
     var nameInput = document.getElementById('name');
     var postGrap = document.getElementById('newMessage');
@@ -21,61 +21,61 @@ $(document).ready(function() {
         {
             id: 1,
             name: 'Barack Obama',
-            img: 'img/male1.jpeg'
+            img: 'Img/male1.jpeg'
         },
 
         {
             id: 2,
             name: 'Hillary Clinton',
-            img: 'img/female1.jpeg'
+            img: 'Img/female1.jpeg'
         },
 
         {
             id: 3,
             name: 'Tim Cook',
-            img: 'img/male2.jpeg'
+            img: 'Img/male2.jpeg'
         },
 
         {
             id: 4,
             name: 'Anne Hathaway',
-            img: 'img/female2.jpeg'
+            img: 'Img/female2.jpeg'
         },
 
         {
             id: 5,
             name: 'Bill Gates',
-            img: 'img/male3.jpeg'
+            img: 'Img/male3.jpeg'
         },
 
         {
             id: 6,
             name: 'Oprah Winfrey',
-            img: 'img/female3.jpeg'
+            img: 'Img/female3.jpeg'
         },
 
         {
             id: 7,
             name: 'Donald Trump',
-            img: 'img/male4.jpeg'
+            img: 'Img/male4.jpeg'
         },
 
         {
             id: 8,
             name: 'Halle Berry',
-            img: 'img/female4.jpeg'
+            img: 'Img/female4.jpeg'
         },
 
         {
             id: 9,
             name: 'Tom Hanks',
-            img: 'img/male5.jpeg'
+            img: 'Img/male5.jpeg'
         },
 
         {
             id: 10,
             name: 'Jennifer Lawrence',
-            img: 'img/female5.jpeg'
+            img: 'Img/female5.jpeg'
         }
 
     ];
@@ -123,10 +123,10 @@ $(document).ready(function() {
         thisUser = {
             id: 0,
             name: '' + nameInput.value.toUpperCase(),
-            img: 'img/anonymous.png'
+            img: 'Img/anonymous.png'
         };
         nameDisplay = $('#newName').html(thisUser.name);
-        imgDisplay = $('#newImg').html('<a href="https://github.com/samaha999" target="_blank"><img alt="" class="img" src="' + thisUser.img + '"></a>');
+        imgDisplay = $('#newImg').html('<a href="https://github.com/DmytroKulyk" target="_blank"><img alt="" class="img" src="' + thisUser.img + '"></a>');
         nameInput.value = '';
         alert('HELLO ' + thisUser.name.toUpperCase() + '!' + ' FEEL FREE TO TWEET!');
     }
