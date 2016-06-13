@@ -1,27 +1,27 @@
+body{
+  background-image: url(Img/bg-blue-zircone.png);
+}
 /*Following is the css for the header and twitter bird img on the top of the page*/
  .header {
-  background-color: #79ffff;
-  text-align: center;
-  font-size: 20px;
-  font-family: serif;
+  font-family: 'Dancing Script', cursive;
+  height: 250px;
   padding: 10px;
+  margin-top: 20px;
+  font-size: 30px;
 }
+
 .row .col-md-2{
   width: 20%;
 }
 
-.birdimg {
-  display: block;
-  height: 50px;
-  width: 35px;
-}
-
 /*Following is the css for the tweet input and post button on the right side of the page*/
 .tweet_input {
+ 
  background-color: #52b6ff;
  border: 1px solid #102F45;
- margin-top: 20px;
+ margin-top: 10px;
  padding: 20px;
+ float: right;
 }
 
 .button_post {
@@ -32,7 +32,7 @@
 .tweet_username {
   background-color: #43b9cc;
   border: 1px solid #102F45;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 8px;
 }
 
@@ -43,9 +43,10 @@
   text-align: center;
   font-size: 18px;
   font-family: serif;
-  margin-top: -20px;
+  margin-top: 10px;
   padding: 8px;
   color: #fe818b;
+  float: left;
 }
 
 /*Following is the css for the username Anonymous on the left side of the page*/
@@ -100,9 +101,13 @@
   background-color: #d34261;
   border: 1px solid white;
   text-align: center;
-  height: 270px;
-  width: 190px;
+  height: 100%;
+  width: 100%;
 }
 .filter {
   margin-top: 20px;
+}
+iframe{
+  float: right;
+  margin-right: 40px;
 }

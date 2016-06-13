@@ -8,30 +8,40 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link type="text/css" rel="stylesheet" href="Twitter.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <!--Following Section is the header top page and twitter bird img-->
-    <div class="container-fluid">
-        <div class="row header" >
-            <div class="col-md-1"><a href='https://github.com/DmytroKulyk' target='_blank'><img alt="" class="birdimg" src="img/twitter.png"></a></div>
-            <div class="col-md-10">
-                <h1>Twitter</h1>
-                <p>See what’s happening right now.</p>
-            </div>
-        </div>
-        <!--Following Section is the username input and the submitt button on the left side-->
-        <div class="row">
-            <div class="col-md-2 tweet_username">
+    <!--Following Section is the header top page and submitt button on the left side-->  
+     <div class="col-md-3 col-sm-3 col-xs-4 tweet_username">
                 <input type="text" class="form-control" id="name" placeholder="Enter new username">
                 <button class="btn btn-primary button_post" id="submitButton" type="submit">Submit</button>
             </div>
+
+    <div class="container-fluid col-md-9 col-xs-8 col-sm-9">
+        <div class="row header text-center" >
+              <h1>Twitter</h1>
+          <h2>See what’s happening right now.</h2>
+           <iframe width="200" height="100" src="https://www.youtube.com/embed/wzxsYdiGqiI?autoplay=1"></iframe>
+            </div>
+        </div>
+   
+
+        <!--Following Section is the username input and-->
+
+
+    <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-2 userStatus text-center">
+                <p>Your curreunt Username</p>
+                <p id="newName"></p>
+                <p class="a" id="newImg"></p>
+        </div>
             <!--Following Section is the tweet input and the post button on the right side-->
-            <div class="col-md-8 col-md-offset-1 tweet_input">
+            <div class="< col-md-8 col-md-offset-1 col-sm-9 col-xs-9 tweet_input">
                 <input type="text" class="form-control" id="newMessage" placeholder="Tweet here...">
                 <button class="btn btn-success btn-lg active  button_post" id="postButton" type="submit">Post</button>
                 <button class="btn btn-success btn-lg active  button_post" id="clearButton" type="submit">Clear All Posts</button>
-                posts
+                
 
                 <div class="filter row">
                     <p class="col-md-2">Filter:</p>
@@ -49,18 +59,10 @@
 
 
             </div>
-        </div>
-        <!--Following Section is the current username display on the left side-->
-        <div class="row">
-            <div class="col-md-2 userStatus text-center">
-                <p>Your curreunt Username</p>
-                <p id="newName"></p>
-                <p class="a" id="newImg"></p>
-
-                <iframe width="200" height="100" src="https://www.youtube.com/embed/wzxsYdiGqiI?autoplay=1"></iframe>
-            </div>
+         
+               
             <!--Following Section is the new tweet display on the right side-->
-            <ul class="col-md-8 col-md-offset-1 newTweet" id="posts"></ul>
+            <ul class="col-md-8 col-md-offset-1 col-sm-9 col-xs-9 newTweet" id="posts"></ul>
         </div>
         <script src="jquery.js"></script>
         <script src="Twitter.js"></script>
